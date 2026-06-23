@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Vue Query Builder</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vue-query-builder doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <div id="app">
+      <div class="container mt-3">
+        <vue-query-builder :rules="rules" v-model="output"></vue-query-builder>
+        <br>
+        --
+        <p>Output:</p>
+        <pre>{{ outputFormatted }}</pre>
+      </div>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
