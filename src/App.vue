@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="app-content">
-      <vue-query-builder :rules="rules" v-model="output" />
+      <vue3-query-builder :rules="rules" v-model="output" />
     </div>
     <div class="output-section">
       <div class="output-divider">

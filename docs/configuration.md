@@ -9,12 +9,12 @@ sidebarDepth: 3
 These are all of the props and events that can be defined on the Vue Query Builder component. See below for a detailed explanation of each one.
 
 ```html
-<vue-query-builder
+<vue3-query-builder
   :rules="rules"
   :maxDepth="3"
   :labels="labels"
   v-model="query"
-  ></vue-query-builder>
+  ></vue3-query-builder>
 ```
 
 ### rules <Badge text="required" type="error" vertical="middle" /> <Badge text="Type: Array" vertical="middle" />
@@ -141,9 +141,9 @@ Replace the default labels used in the UI. The default values are:
 Provide a value to the `v-model` attribute to give some initial state to the query builder, and to automatically get the updated value of the query as it changes. If you don't want to provide initial state, you can just pass an empty object:
 
 ```html
-<vue-query-builder
+<vue3-query-builder
   v-model="query"
-  ></vue-query-builder>
+  ></vue3-query-builder>
 ```
 
 ```js

@@ -1,9 +1,9 @@
 
 ### ⚠️ 项目初衷
 
-本项目源自 [`vue-query-builder`](https://github.com/dabernathy89/vue-query-builder) 项目
+本项目源自 [`vue-query-builder`](https://github.com/dabernathy89/vue3-query-builder) 项目
 
-根据项目仓库信息，`vue-query-builder` 已于 2022 年 1 月 19 日被作者正式标记为 **Abandoned (已弃用)**。
+根据项目仓库信息，`vue3-query-builder` 已于 2022 年 1 月 19 日被作者正式标记为 **Abandoned (已弃用)**。
 
 作者表示由于长时间没有精力维护，而原项目为Vue2版本，不能适用于Vue3版本项目的使用，因此。
 
@@ -11,7 +11,7 @@
 
 ### 🛠️ 项目功能亮点
 
-`vue-query-builder` 是一个专为 Vue.js 设计的 UI 组件，旨在帮助开发者构建复杂的嵌套条件查询。它的核心价值在于将复杂的逻辑查询可视化，降低用户的使用门槛。
+`vue3-query-builder` 是一个专为 Vue.js 设计的 UI 组件，旨在帮助开发者构建复杂的嵌套条件查询。它的核心价值在于将复杂的逻辑查询可视化，降低用户的使用门槛。
 
 #### 核心功能
 *   **可视化查询构建**：提供直观的图形界面，让用户无需编写代码即可生成复杂的查询逻辑。
@@ -33,9 +33,9 @@
 该项目通常通过 npm 或 yarn 进行安装（注意版本兼容性，该项目主要基于 Vue 2 开发）：
 
 ```bash
-npm install vue-query-builder
+npm install vue3-query-builder
 # 或
-yarn add vue-query-builder
+yarn add vue3-query-builder
 ```
 
 #### 2. 基础代码示例
@@ -52,7 +52,7 @@ yarn add vue-query-builder
 </template>
 
 <script>
-import QueryBuilder from 'vue-query-builder'
+import QueryBuilder from 'vue3-query-builder'
 
 export default {
   components: {
@@ -128,6 +128,6 @@ export default {
 
 
 
-[Demo and documentation](https://dabernathy89.github.io/vue-query-builder/)
+[Demo and documentation](https://dabernathy89.github.io/vue3-query-builder/)
 
-![Demo Screenshot](https://raw.githubusercontent.com/dabernathy89/vue-query-builder/master/public/demo-screenshot.png "Demo screenshot")
+![Demo Screenshot](https://raw.githubusercontent.com/dabernathy89/vue3-query-builder/master/public/demo-screenshot.png "Demo screenshot")

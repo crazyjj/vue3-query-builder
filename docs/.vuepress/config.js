@@ -3,13 +3,13 @@ const path = require('path');
 module.exports = {
     title: 'Vue Query Builder',
     description: 'A UI component for building complex queries with nested conditionals.',
-    base: '/vue-query-builder/',
+    base: '/vue3-query-builder/',
 
     themeConfig: {
         nav: [
         ],
 
-        repo: 'dabernathy89/vue-query-builder',
+        repo: 'dabernathy89/vue3-query-builder',
         docsDir: 'docs',
         docsBranch: 'gh-pages',
         editLinks: true,

@@ -18,7 +18,7 @@ In your template, you **must**:
 Your main Vue instance might look like this:
 
 ```js
-import VueQueryBuilder from 'vue-query-builder';
+import VueQueryBuilder from 'vue3-query-builder';
 import MyCustomQueryBuilderGroup from './my-custom-query-builder-group.vue';
 
 new Vue({
@@ -28,11 +28,11 @@ new Vue({
 ```
 
 ```html
-<vue-query-builder :rules="rules" v-model="query">
+<vue3-query-builder :rules="rules" v-model="query">
     <template v-slot:default="slotProps">
         <query-builder-group v-bind="slotProps" :query.sync="query"/>
     </template>
-</vue-query-builder>
+</vue3-query-builder>
 ```
 
 ## Extending the base components
@@ -49,7 +49,7 @@ These base components are exported separately from the main query builder compon
 </template>
 
 <script>
-import QueryBuilderGroup from "vue-query-builder/dist/group/QueryBuilderGroup.umd.js";
+import QueryBuilderGroup from "vue3-query-builder/dist/group/QueryBuilderGroup.umd.js";
 import QueryBuilderRule from "./MyCustomQueryBuilderRule.vue";
 
 export default {
@@ -71,7 +71,7 @@ export default {
 </template>
 
 <script>
-import QueryBuilderRule from "vue-query-builder/dist/rule/QueryBuilderRule.umd.js";
+import QueryBuilderRule from "vue3-query-builder/dist/rule/QueryBuilderRule.umd.js";
 
 export default {
   extends: QueryBuilderRule
@@ -84,7 +84,7 @@ export default {
 Here is an example which uses Tailwind CSS instead of Bootstrap to style the query builder:
 
 <iframe
-     src="https://codesandbox.io/embed/vue-query-builder-demo-tailwind-82tun?fontsize=14&hidenavigation=1&theme=dark"
+     src="https://codesandbox.io/embed/vue3-query-builder-demo-tailwind-82tun?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="Vue Query Builder Demo - Tailwind"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
@@ -101,5 +101,5 @@ Here is an example which uses Tailwind CSS instead of Bootstrap to style the que
 
 More documentation on custom templates is coming soon. However, the query builder actually uses the custom template functionality under the hood, so you can see a complete example - including sample HTML for all possible rule types - in the following files in the repo:
 
-- [src/layouts/Bootstrap/BootstrapGroup.vue](https://github.com/dabernathy89/vue-query-builder/blob/master/src/layouts/Bootstrap/BootstrapGroup.vue)
-- [src/layouts/Bootstrap/BootstrapRule.vue](https://github.com/dabernathy89/vue-query-builder/blob/master/src/layouts/Bootstrap/BootstrapRule.vue)
+- [src/layouts/Bootstrap/BootstrapGroup.vue](https://github.com/dabernathy89/vue3-query-builder/blob/master/src/layouts/Bootstrap/BootstrapGroup.vue)
+- [src/layouts/Bootstrap/BootstrapRule.vue](https://github.com/dabernathy89/vue3-query-builder/blob/master/src/layouts/Bootstrap/BootstrapRule.vue)

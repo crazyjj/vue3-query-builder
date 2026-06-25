@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-query-builder">
+  <div class="vue3-query-builder">
     <slot v-bind="vqbProps">
       <query-builder-group
         v-bind="vqbProps"
@@ -377,7 +377,7 @@ export default {
 </script>
 
 <style scoped>
-.vue-query-builder {
+.vue3-query-builder {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;

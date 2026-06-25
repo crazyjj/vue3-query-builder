@@ -1,5 +1,5 @@
 {
-  "name": "vue-query-builder",
+  "name": "vue3-query-builder",
   "version": "1.0.1",
   "scripts": {
     "serve": "vue-cli-service serve --name VueQueryBuilder src/main.js",

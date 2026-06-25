@@ -12,7 +12,7 @@ Each instance of Vue Query Builder consists of groups and rules. Groups can cont
 
 <br>
 
-<vue-query-builder :rules="rules" v-model="query"></vue-query-builder>
+<vue3-query-builder :rules="rules" v-model="query"></vue3-query-builder>
 
 <script>
 export default {
@@ -83,7 +83,7 @@ export default {
 }
 </script>
 <style lang="scss">
-.vue-query-builder, .vue-query-builder * {
+.vue3-query-builder, .vue3-query-builder * {
   box-sizing: border-box;
 }
 
